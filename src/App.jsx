@@ -1,4 +1,5 @@
 import BoxColor from "./components/box-color/box-color";
+import Carousel from "./components/carousel/carousel";
 import ClickablePicture from "./components/clickable-picture/clickable-picture";
 import Counter from "./components/counter/counter";
 import CreditCard from "./components/credit-card/credit-card";
@@ -9,7 +10,7 @@ import IdCard from "./components/id-card/id-card";
 import LikeButton from "./components/like-button/like-button";
 import Random from "./components/random/random";
 import Rating from "./components/rating/rating";
-// import '../src/assets/images'
+import images from "./data/carousel-images"
 
 
 function App(){
@@ -96,6 +97,8 @@ function App(){
         />
         <hr />
         <Dice />
+        <hr />
+        <Carousel images={images}/>
       </div>
     )
 
